@@ -2,6 +2,7 @@ require 'socket'
 
 host = 'www.tutorialspoint.com'
 host2 = 'localhost'
+host3 = '127.0.0.1'
 port = 80
 port2 = 2000
 path = "index.html"
@@ -18,8 +19,10 @@ headers, body = response.split("\r\n\r\n", 2)
 
 
 
-#puts "headers = #{headers.inspect}"
+#puts headers
 #puts "headers = #{headers}"
-#puts "body = #{body}"
+puts body
 
-print all
+#print all
+
+  	
