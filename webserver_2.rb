@@ -1,4 +1,5 @@
 require 'socket'
+require 'json'
 
 def exist(file)
   File.file?(file)
